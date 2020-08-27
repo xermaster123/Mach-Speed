@@ -1,0 +1,72 @@
+{
+    "Commands": [
+        {
+            "command": "RotateCameraLeftCommand",
+            "key": 81 // q
+        },
+        {
+            "command": "RotateCameraRightCommand",
+            "key": 69 // e
+        },
+        {
+            "command": "RotateCameraUpCommand",
+            "key": 82 // r
+        },
+        {
+            "command": "RotateCameraDownCommand",
+            "key": 70 // f
+        },
+        {
+            "command": "MovePlayerForwardCommand",
+            "key": 87 // w
+        },
+        {
+            "command": "MovePlayerLeftCommand",
+            "key": 65 // a
+        },
+        {
+            "command": "MovePlayerBackwardCommand",
+            "key": 83 // s
+        },
+        {
+            "command": "MovePlayerRightCommand",
+            "key": 68 // d
+        },
+        {
+            "command": "MovePlayerUpCommand",
+            "key": 88 // x
+        },
+        {
+            "command": "MovePlayerDownCommand",
+            "key": 67 // c
+        },
+        {
+            "command": "IncreaseRedCommand",
+            "key": 82 // r
+        },
+        {
+            "command": "DecreaseRedCommand",
+            "key": 84 // t
+        },
+        {
+            "command": "IncreaseGreenCommand",
+            "key": 70 // f
+        },
+        {
+            "command": "DecreaseGreenCommand",
+            "key": 71 // g
+        },
+        {
+            "command": "IncreaseBlueCommand",
+            "key": 86 // v
+        },
+        {
+            "command": "DecreaseBlueCommand",
+            "key": 66 // b
+        },
+        {
+            "command": "OpenMainMenuCommand",
+            "key": 27 // esc
+        }
+    ]
+}

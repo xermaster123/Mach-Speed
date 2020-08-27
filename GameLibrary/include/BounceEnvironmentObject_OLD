@@ -1,0 +1,36 @@
+#pragma once
+#include "GameObject.h"
+#include "ModelComponent.h"
+#include "TransformComponent.h"
+
+class BounceEnvironmentObject : public GameObject
+{
+public:
+	BounceEnvironmentObject()
+	{
+		addComponent(new TransformComponent);
+		addComponent(new ModelComponent);
+	}
+
+	~BounceEnvironmentObject() { }
+
+	void OnUpdate(float dt) override
+	{
+		glm::vec3 pos = getComponent<TransformComponent>()->position();
+		float change = 0;
+
+		if (pos.y >= 0.15f) down = true;
+		if (pos.y <= 0.03f) down = false;
+
+		down ? change = -0.1f : change = 0.1f;
+		change = change * dt;
+		if (change > 0.1f || change < -0.1f) change = 0.f;
+
+		getComponent<TransformComponent>()->translate(0, change, 0);
+	}
+
+	void OnMessage(const std::string m) override { }
+
+private:
+	bool down = false;
+};

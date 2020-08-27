@@ -1,0 +1,19 @@
+#pragma once
+#include "GameObject.h"
+#include "ModelComponent.h"
+#include "TransformComponent.h"
+
+class StaticEnvironmentObject : public GameObject
+{
+public:
+	StaticEnvironmentObject()
+	{
+		addComponent(new TransformComponent);
+		addComponent(new ModelComponent);
+	}
+
+	~StaticEnvironmentObject() { }
+
+	void OnUpdate(float dt) override { }
+	void OnMessage(const std::string m) override { }
+};

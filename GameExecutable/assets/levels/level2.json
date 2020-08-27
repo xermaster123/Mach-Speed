@@ -1,0 +1,209 @@
+{
+   "GameObjects" : [
+      {
+         "model" : "floor/floor_water.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "sand/island.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -10, -0.5, 0 ],
+         "scale" : [ 29, 29, 29 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "sand/island.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 10, -0.5, 20 ],
+         "scale" : [ 29, 29, 29 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Rock_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -10, 0.6000000238418579, 0 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Rock_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -11, 0.5, 1 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Rock_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -9, 0.5, -2 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Rock_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -12, 0.5, -1 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "collide_distance" : 5,
+         "model" : "ring/ring.dae",
+         "nextLevel" : "matthewLevel3.json",
+         "orientation" : [ 0.7071067690849304, 0, 0, 0.7071067690849304 ],
+         "position" : [ 0, 0, -50 ],
+         "scale" : [ 10, 1, 10 ],
+         "score" : 10,
+         "type" : "LevelGateObject"
+      },
+      {
+         "model" : "duck/duck.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, 70 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "speed" : 0,
+         "type" : "PlayerCharacter"
+      },
+      {
+         "model" : "foliage/Tree_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -12, 0, 10 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Tree_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 10, 0, 30 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "foliage/Tree_A.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 7, 0, 30 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "turret/cannon.obj",
+         "orientation" : [ 0, 0.7069846987724304, 0, 0.7072288393974304 ],
+         "position" : [ -30, 0, 0 ],
+         "scale" : [ 0.5, 0.5, 0.5 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "turret/cannon.obj",
+         "orientation" : [ 0, -0.7069846987724304, 0, 0.7072288393974304 ],
+         "position" : [ 30, 0, 10 ],
+         "scale" : [ 0.5, 0.5, 0.5 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "turret/cannon.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 15, 0, -50 ],
+         "scale" : [ 0.5, 0.5, 0.5 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "other/snow/snow_origin.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "particle" : {
+            "colour" : [ 1, 1, 1, 1 ],
+            "expiration" : 10,
+            "falling" : true,
+            "filepath" : "snow.png",
+            "position" : [ 0, 100, 0 ],
+            "range" : [ 500, 500 ],
+            "size" : 1
+         },
+         "position" : [ 0, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "ParticleEmitterObject"
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 20, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, -20 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -5, 0, 25 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, 80 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 20, 0, 30 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -40, 0, -5 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -25, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -20, 0, -20 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 30, 0, 70 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      }
+   ]
+}

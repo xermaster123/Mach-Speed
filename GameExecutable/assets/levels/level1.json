@@ -1,0 +1,166 @@
+{
+   "GameObjects" : [
+      {
+         "model" : "floor/floor_water.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, 0, 0 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "sand/island.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 14, -0.5, -66 ],
+         "scale" : [ 29, 29, 29 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "duck/duck.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, -0.6000000238418579, 0 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "speed" : 10,
+         "type" : "PlayerCharacter"
+      },
+      {
+         "model" : "lifebuoy/lifebuoy.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 0, -0.2000000029802322, -50 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "square/square.obj",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "particle" : {
+            "colour" : [ 1, 0, 0, 1 ],
+            "expiration" : 2,
+            "falling" : false,
+            "filepath" : "snow.png",
+            "position" : [ 0, 1.5, -50 ],
+            "range" : [ 2, 2 ],
+            "size" : 1
+         },
+         "position" : [ 0, -0.2000000029802322, -50 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "ParticleEmitterObject"
+      },
+      {
+         "model" : "lifebuoy/lifebuoy.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 29, -0.2000000029802322, -50 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "square/square.obj",
+         "orientation" : [ 3.0771322155314e-24, 7.771561172376096e-16, -3.959477634651876e-09, 1 ],
+         "particle" : {
+            "colour" : [ 1, 0, 0, 1 ],
+            "expiration" : 2,
+            "falling" : false,
+            "filepath" : "snow.png",
+            "position" : [ 29, 1.5, -50 ],
+            "range" : [ 2, 2 ],
+            "size" : 1
+         },
+         "position" : [ 29, -0.2000000029802322, -50 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "ParticleEmitterObject"
+      },
+      {
+         "model" : "lifebuoy/lifebuoy.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 14.5, -0.2000000029802322, -89 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "square/square.obj",
+         "orientation" : [ 0, 0, 5.939217118111628e-09, 1 ],
+         "particle" : {
+            "colour" : [ 1, 0, 0, 1 ],
+            "expiration" : 2,
+            "falling" : false,
+            "filepath" : "snow.png",
+            "position" : [ 14.5, 1.5, -79 ],
+            "range" : [ 2, 2 ],
+            "size" : 1
+         },
+         "position" : [ 14.5, -0.2000000029802322, -89 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "ParticleEmitterObject"
+      },
+      {
+         "model" : "house/house.dae",
+         "orientation" : [ -0.7071067690849304, 0, 0, 0.7071067690849304 ],
+         "position" : [ 15, 3, -64.5 ],
+         "scale" : [ 0.009999999776482582, 0.009999999776482582, 0.009999999776482582 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -40, 1, -50 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 10, 1, -100 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ -10, 1, 20 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 100, 1, -70 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "model" : "coin/coin.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 10, 1, -20 ],
+         "scale" : [ 1, 1, 1 ],
+         "type" : "CoinObject",
+         "value" : 1
+      },
+      {
+         "collide_distance" : 5,
+         "model" : "ring/ring.dae",
+         "nextLevel" : "assets/levels/level2.json",
+         "orientation" : [ 0.7071067690849304, 0, 0, 0.7071067690849304 ],
+         "position" : [ 0, 1, -200 ],
+         "scale" : [ 10, 1, 10 ],
+         "score" : 5,
+         "type" : "LevelGateObject"
+      },
+      {
+         "model" : "sand/island.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 10, -0.5, -60 ],
+         "scale" : [ 29, 29, 29 ],
+         "type" : "StaticEnvironmentObject"
+      },
+      {
+         "model" : "sand/island.dae",
+         "orientation" : [ 0, 0, 0, 1 ],
+         "position" : [ 22, -0.5, -58 ],
+         "scale" : [ 29, 29, 29 ],
+         "type" : "StaticEnvironmentObject"
+      }
+   ]
+}

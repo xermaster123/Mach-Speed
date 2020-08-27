@@ -1,0 +1,22 @@
+#pragma once
+#include "GameObject.h"
+#include "ModelComponent.h"
+#include "TransformComponent.h"
+
+class RotateEnvironmentObject : public GameObject
+{
+public:
+	RotateEnvironmentObject()
+	{
+		addComponent(new TransformComponent);
+		addComponent(new ModelComponent);
+	}
+
+	~RotateEnvironmentObject() { }
+
+	void OnUpdate(float dt) override
+	{
+		getComponent<TransformComponent>()->rotate(1 * dt, 0, 1, 0);
+	}
+	void OnMessage(const std::string m) override { }
+};
